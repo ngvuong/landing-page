@@ -4,48 +4,68 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Landing Page</title>
   </head>
   <body>
     <header class="header">
+      <span class="header-logo">Header Logo</span>
       <nav class="navbar">
         <ul>
-          <li><a href="#">Link one</a></li>
-          <li><a href="#">Link two</a></li>
-          <li><a href="#">Link three</a></li>
+          <li><a href="#">header link one</a></li>
+          <li><a href="#">header link two</a></li>
+          <li><a href="#">header link three</a></li>
         </ul>
       </nav>
     </header>
+
     <main class="main-content">
-      <section class="heading">
-        <div class="heading-container">
-          <h1 class="heading-title">This website is awesome!</h1>
-          <p class="heading-text"></p>
-          <button class="signup-btn">Sign Up</button>
+      <section class="hero-content">
+        <div class="hero-container">
+          <h1 class="hero-text-main">This website is awesome!</h1>
+          <p class="hero-text-secondary">
+            Hero subtext which goes here under the main title. It's a smaller
+            font and color is lower contrast
+          </p>
+          <button class="signup-btn">Sign up</button>
         </div>
-        <img src="assets/picture1.jpg" alt="Placeholder" />
+        <div class="image-container">
+          <img class="hero-image" src="assets/picture1.jpg" alt="Placeholder" />
+        </div>
       </section>
       <section class="additional-content">
-        <h2 class="content-title">Some random information</h2>
+        <h2 class="content-title">Some random information.</h2>
         <div class="content-items">
           <div class="content-item item1">
             <div class="item-image">
               <img src="assets/product1.jpg" alt="Product one" />
+            </div>
+            <div class="item-text">
+              this is some subtext under an illustration or image
             </div>
           </div>
           <div class="content-item item2">
             <div class="item-image">
               <img src="assets/product2.jpg" alt="Product two" />
             </div>
+            <div class="item-text">
+              this is some subtext under an illustration or image
+            </div>
           </div>
           <div class="content-item item3">
             <div class="item-image">
               <img src="assets/product3.jpg" alt="Product three" />
             </div>
+            <div class="item-text">
+              this is some subtext under an illustration or image
+            </div>
           </div>
           <div class="content-item item4">
             <div class="item-image">
               <img src="assets/product4.jpg" alt="Product four" />
+            </div>
+            <div class="item-text">
+              this is some subtext under an illustration or image
             </div>
           </div>
         </div>
@@ -54,13 +74,16 @@
         <blockquote><p></p></blockquote>
         <cite>Me</cite>
       </section>
-      <footer class="footer">
+      <section class="banner">
         <div class="prompt-container">
           <div class="prompt-title"></div>
           <div class="prompt-text"></div>
         </div>
-        <button class="signup-btn footer-btn">Sign Up</button>
-      </footer>
+        <button class="signup-btn footer-btn">Sign up</button>
+      </section>
     </main>
+    <footer class="footer">
+      <div class="copyright">Copyright &#169; The Odin Project 2022</div>
+    </footer>
   </body>
 </html>
